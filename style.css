@@ -1,0 +1,56 @@
+body{
+  background-image:url(image/bg.jpeg);
+  backdrop-filter: brightness(70%);
+  padding: 5%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  font-family: 'Times New Roman', serif;
+  -webkit-text-stroke: 0.5px floralwhite;
+}
+h1.heart{
+  font-size: 50%;
+}
+h1{
+  font-size: 40px;
+  color: mediumvioletred;
+}
+p{
+  font-size: 20px ;
+  color: darkviolet ;
+}
+p.left{
+  margin-right: 50px;
+  margin-left: 80px ;
+}
+p.right {
+  text-align: right;
+  margin-left: 50px;
+  margin-right: 80px;
+}
+img{
+  width: 75px;
+  height: 75px;
+  border-radius: 37.5px;
+  object-fit: cover ;
+}
+img.left{
+  float: left ;
+  margin-right: 10px;
+}
+img.right{
+  float: right;
+  margin-left: 10px;
+  
+}
+button{
+  padding: 10px 10px;
+        font-size: 20px;
+        background-color: magenta;
+        color: lightcyan;
+        border: solid;
+        border-radius: 20px;
+        cursor: pointer;
+        animation: heartbeat 1.5s infinite;
+}
