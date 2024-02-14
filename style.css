@@ -5,6 +5,9 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+#poem{
+  display: none;
+}
 body {
   font-family: 'Times New Roman', serif;
   -webkit-text-stroke: 0.5px floralwhite;
